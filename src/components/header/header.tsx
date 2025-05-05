@@ -9,7 +9,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-gray-500 text-white shadow-md">
+    <header className="sticky top-0 z-50 bg-blue-400 text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center">
         {/* Logo + Hamburger for mobile */}
         <div className="flex items-center space-x-4">
